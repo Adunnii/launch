@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  background-image: url(./image/pattern-hills.svg);
+  background-color: hsl(234, 17%, 12%);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.body {
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+.hills {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+.bx-con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+  margin-top: -20rem;
+  justify-content: space-evenly;
+  margin-left: 40rem;
+  display: flex;
+  width: 9rem;
+}
+.bottom-cont{
+ 
+  align-items: center;
+  justify-content: center;
+}
+.text{
+    text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 47px;
+  font-family: Red Hat Text;
+  letter-spacing: 3px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 40rem;
+    
+
+}
+
+ .box--1{
+  background-color:  hsl(236, 21%, 26%);
+  width: 9rem;
+  height: 8rem;
+  border-radius: 5px;
+  box-shadow: 0 12px  rgb(22, 23, 34 ) ;
+
+    
+} 
+
+.box--2{
+    background-color:  hsl(236, 21%, 26%);
+    width: 9rem;
+    height: 8rem;
+    border-radius: 5px;
+    box-shadow: 0 12px  rgb(22, 23, 34 ) ;
+   
+} 
+.box--3{
+  background-color:  hsl(236, 21%, 26%);
+  width: 9rem;
+  height: 8rem;
+  border-radius: 5px;
+  box-shadow: 0 12px  rgb(22, 23, 34 ) ;
+} 
+.box--4{
+  background-color:  hsl(236, 21%, 26%);
+  width: 9rem;
+  height: 8rem;
+  border-radius: 5px;
+  box-shadow: 0 12px  rgb(22, 23, 34 ) ;
+} 
+h2{
+     float: inline-end;
+        text-align: center;
+        color:  hsl(237, 18%, 59%);
+        transform: translate(3px, 140px);
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 4px;
+  font-family: Red Hat Text;
+  
+    
+}hr{
+    transform: translate(0, -41px);
+    border: 1px solid hsl(236, 21%, 26%);
+    background-color:hsl(236, 21%, 26%) ;
+    
+    
+}
+h4{
+  font-size: 70px;
+  text-align: center;
+  color: hsl(345, 95%, 68%);
+  font-family: Red Hat Text;
+
+}
+ 
+  
+
+   
+  

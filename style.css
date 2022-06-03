@@ -7,7 +7,7 @@
   box-sizing: inherit;
 }
 body {
-  background-image: url(pattern-hills.svg);
+  background-image: url(image/pattern-hills.svg);
   background-color: hsl(234, 17%, 12%);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -46,6 +46,9 @@ body {
   margin-top: 47px;
   font-family: Red Hat Text;
   letter-spacing: 3px;
+  animation-name: popup;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
 }
 .box{
     display: flex;
@@ -112,6 +115,21 @@ h4{
   color: hsl(345, 95%, 68%);
   font-family: Red Hat Text;
 
+}
+@keyframes popup{
+  0%{
+    opacity: 0;
+    transform: translateX(10rem);
+}
+80%{
+    transform: translateX(-2rem);
+
+}
+100%{
+    opacity: 1;
+    transform: translate(0);
+
+}
 }
  
   

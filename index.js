@@ -1,4 +1,4 @@
-const birthday = new Date('June 4, 2022 12:00:00').getTime();
+const birthday = new Date('June 4, 2022 00:00:00').getTime();
 
 console.log(birthday)
 

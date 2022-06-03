@@ -7,7 +7,7 @@
   box-sizing: inherit;
 }
 body {
-  background-image: url(image/pattern-hills.svg);
+  background-image: url(pattern-hills.svg);
   background-color: hsl(234, 17%, 12%);
   background-position: bottom;
   background-repeat: no-repeat;
